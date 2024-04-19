@@ -14,15 +14,18 @@ function App() {
     // react fragments render more than one top level component
     // normally you aren't allowed more than one parent component
     <> 
+
+<div className="bucket-app">
+      <header className="header">
+      <Header />
+      </header>
+
       <Navigation />
       <main className="mx-3">
         <Outlet />
       </main>
 
-      <div className="bucket-app">
-      <header className="header">
-      <Header />
-      </header>
+
 
 
 
