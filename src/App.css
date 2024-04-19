@@ -1,3 +1,244 @@
+/* Import Google font - Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --blue: #0d5ec7;
+  --light-blue: #63f8f1;
+  --volt: #c8ff00;
+  --dark-blue: #072752;
+  --yellow: #e5dc15;
+  --dark-yellow: #c2bb11;
+  --bootstrap-dark: #212529;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.bucket-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  /*below will make app take up full height of page*/
+  min-height: 100vh;
+  background: black;
+  text-align: center;
+  margin: 32px auto;
+  border-radius: 20px;
+  padding-bottom: 32px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header.header {
+  margin-top: 30px;
+  background: var(--volt);
+  padding: 16px;
+}
+
+footer.footer {
+  margin-top: auto;
+  margin-bottom: 30px;
+  background: var(--volt);
+  padding: 16px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 20px;
+  border: red solid 2px;
+}
+
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}
+
+h3 {
+  margin: auto;
+  color: rgb(66, 171, 231);
+  font-size: 20px;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.bucket-form {
+  margin-bottom: 32px;
+}
+
+.bucket-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+}
+
+.bucket-input::placeholder {
+  color: #e2e2e2;
+}
+
+.bucket-button {
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background: #5d0cff;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.bucket-input.edit {
+  border: 2px solid #149fff;
+}
+
+.bucket-button.edit {
+  background: linear-gradient(
+    90deg,
+    rgba(20, 159, 255, 1) 0%,
+    rgba(17, 122, 255, 1) 100%
+  );
+  padding: 16px 22px;
+}
+
+.bucket-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.bucket-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.low {
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+}
+
+.medium {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 12, 241, 1) 0%,
+    rgba(250, 0, 135, 1) 100%
+  );
+}
+
+.high {
+  background: linear-gradient(
+    90deg,
+    rgba(20, 159, 255, 1) 0%,
+    rgba(17, 122, 255, 1) 100%
+  );
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}
+
+/* Dropdown menu */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ec5700;
+  border-radius: 4px;
+  color: white;
+  padding: 16px;
+  margin: 10px;
+  /* font-size: 16px; */
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 215px;
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content p:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #5d0cff;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -11,9 +252,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +265,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
