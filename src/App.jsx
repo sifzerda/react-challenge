@@ -10,10 +10,10 @@ import Footer from './components/Footer';
 function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
-    // v below is a react fragment 
+    // react fragment 
     // can also write this React.fragment
-    // react fragments render more than one top level component
-    // normally you aren't allowed more than one parent component
+    // renders more than one top level component
+    // normally aren't allowed more than one parent component
     <> 
 
 <div className="bucket-app">
@@ -27,19 +27,13 @@ function App() {
       <Outlet />
       </main>
 
-
 <footer className="footer">
       <Footer />
       </footer>
 
     </div>
 
-
-
-    </> // <-- this is a react fragment, 
-
-
-
+    </> // react fragment close
 
   );
 }
