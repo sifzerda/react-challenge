@@ -1,7 +1,9 @@
 import './App.css';
 // Bringing in the required import from 'react-router-dom'
 import { Outlet } from 'react-router-dom';
-import Nav from './components/NavTabs';
+import Navigation from './components/Navigation';
+
+
 
 function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
@@ -11,7 +13,7 @@ function App() {
     // react fragments render more than one top level component
     // normally you aren't allowed more than one parent component
     <> 
-      <Nav />
+      <Navigation />
       <main className="mx-3">
         <Outlet />
       </main>
