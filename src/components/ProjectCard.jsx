@@ -1,10 +1,10 @@
 //import React from 'react';
 
-function ProjectCard({ image, title, description }) {
+function ProjectCard({ image, title, description, projectUrl }) {
   return (
     <div className="project-card">
 
-<a href={image} target="_blank" rel="noopener noreferrer">
+<a href={projectUrl} target="_blank" rel="noopener noreferrer">
       <img src={image} alt={title} className="project-image" />
 </a>
       <div className="project-info">
