@@ -18,15 +18,13 @@ function App() {
 <div className="bucket-app">
       <header className="header">
       <Header />
-      </header>
 
       <Navigation />
+      </header>
+
       <main className="mx-3">
-        <Outlet />
+      <Outlet />
       </main>
-
-
-
 
 
 <footer className="footer">
