@@ -11,15 +11,16 @@ function ProjectCard({ image, title, description, projectUrl, projectGitUrl }) {
 <a href={projectUrl} target="_blank" rel="noopener noreferrer">
       <img src={image} alt={title} className="project-image" />
 </a>
-<a href={projectGitUrl} target="_blank" rel="noopener noreferrer">
 
-         <FontAwesomeIcon icon={faGithub}  size="2x" /> 
-
-         </a>
       <div className="project-info">
-      <Tooltip title="GitHub Repository" position="bottom" trigger="mouseenter" className="custom-tooltip-content">
+      <Tooltip title="Visit this GitHub Repo" position="top" trigger="mouseenter" className="custom-tooltip-content">
+      <a href={projectGitUrl} target="_blank" rel="noopener noreferrer">
+         <FontAwesomeIcon icon={faGithub}  size="2x" /> 
+         </a>
+      </Tooltip>
+
         <h3 className="project-title">{title}</h3>
-        </Tooltip>
+
         <p className="project-description">{description}</p>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import BucketList from '../components/BucketList';
 import ProjectList from '../components/ProjectList';
-
+ 
 export default function Portfolio() {
   return (
     <div>
@@ -20,6 +20,7 @@ export default function Portfolio() {
 
 <div className="project-list">
 <h1>My Projects</h1>
+
       <ProjectList />
 
 </div>
