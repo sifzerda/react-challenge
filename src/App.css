@@ -43,7 +43,7 @@ p.project-description {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  
+
   width: 100%;
   /*below will make app take up full height of page*/
   min-height: 100vh;
@@ -52,7 +52,6 @@ p.project-description {
   margin: 0 auto;
   border-radius: 20px;
   padding-bottom: 32px;
- 
 }
 
 main.mx-3 {
@@ -97,6 +96,18 @@ h3 {
   font-size: 20px;
 }
 
+div.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0;
+  border: rgba(17, 122, 255, 1) solid 2px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
 .complete {
   text-decoration: line-through;
   opacity: 0.4;
@@ -136,11 +147,9 @@ h3 {
 }
 
 .bucket-button.edit {
-  background: linear-gradient(
-    90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%);
   padding: 16px 22px;
 }
 
@@ -162,27 +171,21 @@ h3 {
 }
 
 .low {
-  background: linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%);
 }
 
 .medium {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 12, 241, 1) 0%,
-    rgba(250, 0, 135, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(255, 12, 241, 1) 0%,
+      rgba(250, 0, 135, 1) 100%);
 }
 
 .high {
-  background: linear-gradient(
-    90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%);
 }
 
 .project-card {
