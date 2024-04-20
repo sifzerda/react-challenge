@@ -1,7 +1,12 @@
+import profilePic from '../assets/propic.jpg';
+
 export default function About () {
   return (
     <div>
       <h1>About Me Page</h1>
+
+      <img src={profilePic} alt="Profile" style={{ width: '200px', borderRadius: '50%' }} />
+
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

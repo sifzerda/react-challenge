@@ -1,4 +1,6 @@
 import ProjectCard from './ProjectCard';
+import { Tooltip } from 'react-tippy';
+import 'react-tippy/dist/tippy.css';
 
 function ProjectList() {
   const projects = [
@@ -70,7 +72,12 @@ function ProjectList() {
           description={project.description}
           projectUrl={project.projectUrl}
           projectGitUrl={project.projectGitUrl}
-        />
+>
+          {/* Tooltip content */}
+          <Tooltip title="Tooltip Content" position="top" trigger="mouseenter">
+            <span>Hover over me</span>
+          </Tooltip>
+        </ProjectCard>
       ))}
     </div>
   );
