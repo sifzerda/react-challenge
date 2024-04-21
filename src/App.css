@@ -97,6 +97,7 @@ h3 {
 
 p.separator {
   color: #c8ff00;
+  margin-bottom: 35px;
 }
 
 /* About */
@@ -295,7 +296,71 @@ a.a-title {
   color: #fff;
 }
 
-/* Dropdown menu */
+/* ================== Contact Form ============== */ 
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.form-container button {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.confirmation-message {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+div.contact-icons {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+/*  border: red solid 2px;  ------ only apply this to locate flexboxes*/
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  margin-right: 10px; 
+  margin-bottom: 10px; 
+/*  border: red solid 2px;  ------ only apply this to locate flexboxes*/
+}
+
+.icon-container p {
+  margin-left: 15px; /* Adds space between icon and text */
+}
+
+/* ================  Dropdown menu ========================== */
 
 /* Dropdown Button */
 .dropbtn {
@@ -403,6 +468,20 @@ div.blue-separator {
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Media query for contact flex-box icons for larger screens */
+@media screen and (min-width: 768px) {
+div.icon-container {
+    justify-content: center; 
+    margin-right: 20px; 
+  }}
+
+/* media query for contact flex-box icons*/
+@media screen and (max-width: 600px) {
+div.icon-container {
+    flex-basis: 50%; 
   }
 }
 

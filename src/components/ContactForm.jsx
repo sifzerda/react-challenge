@@ -1,3 +1,4 @@
+import '../App.css';
 import { useState } from 'react';
 
 function ContactForm() {
@@ -38,9 +39,9 @@ function ContactForm() {
     return (
 // if submitted, display confirmation message
 // if not not, handle submit
-        <div>
+     <div className="form-container">
         {submitted ? (
-          <div>
+          <div className="confirmation-message">
             <p>Thank you for your message!</p>
           </div>
         ) : (

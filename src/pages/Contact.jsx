@@ -24,44 +24,29 @@ export default function Contact() {
 
 
       <div className="contact-icons">
+        <div className="icon-container">
+          <a href="mailto:tydamon@hotmail.com" className="icon">
+            <FontAwesomeIcon icon={faEnvelope} size="2x" />
+          </a>
+          <p>Email</p>
+        </div>
 
-        <a href="mailto:tydamon@hotmail.com" className="icon">
-          <FontAwesomeIcon icon={faEnvelope} size="2x" />
-        </a>
-        <p>Email</p>
+        <div className="icon-container">
+          <a href="https://github.com/sifzerda" className="icon">
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+          </a>
+          <p>GitHub</p>
+        </div>
 
-        <a href="https://github.com/sifzerda" className="icon">
-          <FontAwesomeIcon icon={faGithub} size="2x" />
-        </a>
-        <p>GitHub</p>
-
-        <a href="https://github.com/sifzerda" className="icon">
-          <FontAwesomeIcon icon={faLinkedin} size="2x" />
-        </a>
-        <p>LinkedIn</p>
-
-        <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna.
-        </p>
-
-
-
-
-        <div className="dropdown">
-          <button className='dropbtn'></button>
-          <div className="dropdown-content">
-            <p>Must do</p>
-          </div>
+        <div className="icon-container">
+          <a href="https://github.com/sifzerda" className="icon">
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          </a>
+          <p>LinkedIn</p>
         </div>
 
 
-
-
-
       </div>
-
-
 
       <div className="blue-separator">
         <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
@@ -74,11 +59,25 @@ export default function Contact() {
         <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
         <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
         <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+      </div>
 
+      <div className="form-box">
 
+        <h1>Leave A Message</h1>
         <ContactForm />
+      </div>
 
-
+      <div className="blue-separator">
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
       </div>
 
 
