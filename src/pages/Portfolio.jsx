@@ -1,4 +1,3 @@
-import BucketList from '../components/BucketList';
 import ProjectList from '../components/ProjectList';
  
 export default function Portfolio() {
@@ -14,8 +13,6 @@ export default function Portfolio() {
         dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
         sodales volutpat et, hendrerit ut dolor. 
       </p>
-
-      <BucketList />
 
       <h1>My Projects</h1>
 <div className="project-list">

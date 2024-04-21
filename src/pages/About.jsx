@@ -1,10 +1,23 @@
 import profilePic from '../assets/propic.jpg';
 import '../App.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faNetworkWired } from '@fortawesome/free-solid-svg-icons';
+import { faLaptop } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function About () {
   return (
     <div>
       <h1>About Me</h1>
+
+      <p className="separator"> ______
+        <FontAwesomeIcon icon={faNetworkWired} />
+        ______
+        <FontAwesomeIcon icon={faLaptop} />
+        ______
+        <FontAwesomeIcon icon={faNetworkWired} />
+        ______
+      </p>
 
       <img className="profile-picture" src={profilePic} alt="Profile"  />
 

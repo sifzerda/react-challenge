@@ -62,7 +62,7 @@ header.header {
   background: rgb(54,68,89);
   background: radial-gradient(circle, rgba(54,68,89,1) 0%, rgba(54,68,89,1) 35%, rgba(33,37,41,1) 100%);
   padding: 16px;
-  border: var(--cyan) solid 8px;
+  border: var(--volt) ridge 8px;
 }
 
 footer.footer {
@@ -70,7 +70,7 @@ footer.footer {
   background: rgb(54,68,89);
   background: radial-gradient(circle, rgba(54,68,89,1) 0%, rgba(54,68,89,1) 35%, rgba(33,37,41,1) 100%);
   padding: 16px;
-  border: var(--cyan) solid 8px;
+  border: var(--volt) ridge 8px;
 }
 
 .nav-links {
@@ -89,7 +89,7 @@ footer.footer {
 
 .nav-link {
   background-color: var(--bootstrap-dark) !important; 
-  color: var(--cyan) !important; 
+  color: white !important; 
   border: 2px solid black !important;
 }
 
@@ -146,7 +146,7 @@ div.project-card {
   flex-direction: column;
   justify-content: center;
   max-width: 400px;
-  border: 3px solid  var(--cyan);
+  border: 3px solid  var(--bootstrap-lighter);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -154,7 +154,7 @@ div.project-card {
 
 div.project-card:hover {
   opacity: 0.8;
-  border: white solid 2px;
+  border:  var(--cyan) solid 3px;
 }
 
 .project-image {
@@ -178,12 +178,13 @@ a.a-title {
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-  border:  var(--cyan) solid 1px;
+  border:  var(--bootstrap-lighter) solid 3px;
   border-radius: 3%;
 }
 
 .project-card:hover img {
   opacity: .5;
+  border:  var(--cyan) solid 3px;
 }
 /* Footer -------------------------------------------------------------- */
 
@@ -329,6 +330,39 @@ color: var(--cyan);
   color: #fff;
 }
 
+/* =============================== Label on project img hover*/ 
+
+.project-card {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color:  var(--cyan);
+  border: rgb(255, 255, 255) solid 2px;
+  padding: 10px;
+  display: none;
+  background-color: var(--bootstrap-dark);
+}
+
+.label p {
+
+  color:  var(--cyan);
+  font-size: 24px;
+}
+
+.image-container:hover .label {
+  display: block; /* Show the label when hovering over the image container */
+}
+
 /* ================== Contact Form ============== */ 
 
 .form-container input,
@@ -401,6 +435,13 @@ div.confirmation-message {
   margin: 0 auto;
 }
 
+a.icon {
+  color: var(--blue);
+  font-size: 1.3em;
+  margin-right: 10px;
+
+}
+
 /* ================  Dropdown menu - currently unused ========================== */
 
 /* Dropdown Button */
@@ -471,7 +512,7 @@ div.blue-separator {
 .blue-square {
   width: 8px;
   height: 8px;
-  background-color: var(--blue);
+  background-color: var(--volt);
 }
 
 #root {
