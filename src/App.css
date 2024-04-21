@@ -211,7 +211,7 @@ a {
 color: var(--blue); 
 }
 
-/* bucket app ---------------------------------------------------------*/
+/* bucket app ---------------------------------------------------------
 
 .complete {
   text-decoration: line-through;
@@ -291,7 +291,7 @@ color: var(--blue);
   background: linear-gradient(90deg,
       rgba(20, 159, 255, 1) 0%,
       rgba(17, 122, 255, 1) 100%);
-}
+}*/
 
 .project-card {
   border: 1px solid #ddd;
