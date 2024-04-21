@@ -1,20 +1,84 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faSquare } from '@fortawesome/free-solid-svg-icons';
+
+import { faNetworkWired } from '@fortawesome/free-solid-svg-icons';
+import { faLaptop } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
+    <div className="contact-container">
+      <h1>Contact Me</h1>
+
+      <p className="separator"> ______
+        <FontAwesomeIcon icon={faNetworkWired} />
+        ______
+        <FontAwesomeIcon icon={faLaptop} />
+        ______
+        <FontAwesomeIcon icon={faNetworkWired} />
+        ______
       </p>
+
+
+      <div className="contact-icons">
+
+        <a href="mailto:tydamon@hotmail.com" className="icon">
+          <FontAwesomeIcon icon={faEnvelope} size="2x" />
+        </a>
+        <p>Email</p>
+
+        <a href="https://github.com/sifzerda" className="icon">
+          <FontAwesomeIcon icon={faGithub} size="2x" />
+        </a>
+        <p>GitHub</p>
+
+        <a href="https://github.com/sifzerda" className="icon">
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        </a>
+        <p>LinkedIn</p>
+
+        <p>
+          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
+          molestie urna.
+        </p>
+
+
+
+
+        <div className="dropdown">
+          <button className='dropbtn'></button>
+          <div className="dropdown-content">
+            <p>Must do</p>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+      <div className="blue-separator">
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+
+
+
+      </div>
+
+
+
     </div>
   );
 }

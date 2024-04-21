@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
-  --blue: #0d5ec7;
+  --blue: #2684ff;
   --light-blue: #63f8f1;
   --volt: #c8ff00;
   --dark-blue: #072752;
@@ -34,10 +34,7 @@ div#root {
   min-width: 100%;
 }
 
-p,
-p.project-description {
-  color: #fff;
-}
+/* bucket app ---------------------------------------------------------*/
 
 .bucket-app {
   display: flex;
@@ -62,12 +59,14 @@ main.mx-3 {
 header.header {
   background: var(--volt);
   padding: 16px;
+  border: var(--blue) solid 8px;
 }
 
 footer.footer {
   margin-top: auto;
   background: var(--volt);
   padding: 16px;
+  border: var(--blue) solid 8px;
 }
 
 .nav-links {
@@ -86,7 +85,7 @@ footer.footer {
 
 h1 {
   margin: 32px 0;
-  color: #fff;
+  color: var(--blue);
   font-size: 24px;
 }
 
@@ -96,33 +95,72 @@ h3 {
   font-size: 20px;
 }
 
-div.profile-picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 32px 0;
-  border: rgba(17, 122, 255, 1) solid 2px;
+p.separator {
+  color: #c8ff00;
+}
+
+/* About */
+
+img.profile-picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+}
+
+/* projects ---------------------------------------------------------*/
+
+p,
+p.project-description {
+  color: #fff;
+}
+
+div.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  border: 3px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
-.custom-tooltip-content {
-  background-color: #ffffff;
-  color: #333333;
-  border: 1px solid #cccccc;
-  border-radius: 4px;
-  padding: 8px 12px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-size: 14px;
-  line-height: 1.5;
+div.project-card:hover {
+  opacity: 0.8;
+  border: white solid 2px;
 }
 
 .project-image {
   max-width: 100%;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
+
+a.a-title {
+  margin: 20px;
+}
+
+/* opacity hover */
+.project-card {
+  background: var(--bootstrap-dark);
+  padding: 0px;
+  border: rgb(255, 255, 255) solid 2px;
+  border-radius: 3%;
+}
+
+.project-card img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  border: var(--blue) solid 3px;
+  border-radius: 3%;
+}
+
+.project-card:hover img {
+  opacity: .5;
+}
+
+/* bucket app ---------------------------------------------------------*/
 
 .complete {
   text-decoration: line-through;
@@ -300,6 +338,25 @@ div.profile-picture {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #5d0cff;
+}
+
+/* Blue squares divider */
+
+div.blue-separator {
+  display: flex;
+  justify-content: space-between;
+  /* Align squares with space between */
+  align-items: center;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.blue-square {
+  width: 8px;
+  height: 8px;
+  background-color: var(--blue);
 }
 
 #root {

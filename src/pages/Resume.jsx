@@ -14,6 +14,11 @@ export default function Resume() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
+
+      <p className="separator"> ||||||||||||| </p>
+
+
+
     </div>
   );
 }
