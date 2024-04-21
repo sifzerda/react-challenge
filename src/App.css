@@ -59,14 +59,16 @@ main.mx-3 {
 }
 
 header.header {
-  background:  var(--bootstrap-lighter);
+  background: rgb(54,68,89);
+  background: radial-gradient(circle, rgba(54,68,89,1) 0%, rgba(54,68,89,1) 35%, rgba(33,37,41,1) 100%);
   padding: 16px;
   border: var(--cyan) solid 8px;
 }
 
 footer.footer {
   margin-top: auto;
-  background:  var(--bootstrap-lighter);
+  background: rgb(54,68,89);
+  background: radial-gradient(circle, rgba(54,68,89,1) 0%, rgba(54,68,89,1) 35%, rgba(33,37,41,1) 100%);
   padding: 16px;
   border: var(--cyan) solid 8px;
 }

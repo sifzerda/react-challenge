@@ -47,8 +47,9 @@ function Navigation() {
         >
           Resume
         </Link>
-
       </li>
+
+      
     </ul>
   );
 }
