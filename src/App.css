@@ -1,6 +1,8 @@
-/* Import Google font - Rubik */
+/* Import Google font - Josefin+Sans, Outfit, Source Code Pro, Rubik, Poppins, Vazmatin, Jersey 10, Space Grotesk */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vazmatin&display-swap");
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Rowdies:wght@300;400;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
 
 :root {
   --blue: #2684ff;
@@ -91,18 +93,21 @@ footer.footer {
   background-color: var(--bootstrap-dark) !important; 
   color: white !important; 
   border: 2px solid black !important;
+  font-family: 'Source Code Pro';
 }
 
 .nav-link.active {
   background-color: var(--bootstrap-dark) !important; 
   color: var(--volt) !important; 
   border: 2px solid rgb(179, 255, 0) !important;
+  font-style: italic;
 }
 
 h1 {
   margin: 32px 0;
-  color: var(--cyan);
-  font-size: 24px;
+  color: var(--blue);
+  font-size: 50px;
+  font-family: 'Josefin Sans', Rubik, 'Arial Narrow Bold', sans-serif
 }
 
 h3 {
@@ -111,12 +116,14 @@ h3 {
   font-size: 20px;
 }
 
+
+/* currently unused: <p className="separator"> ||||||||||||| </p>*/
 p.separator {
   color: #c8ff00;
   margin-bottom: 35px;
 }
 
-/* About */
+/* About ================================================================== */
 
 img.profile-picture {
   width: 200px;
@@ -193,7 +200,7 @@ a.a-title {
 }
 
 .cyan-text {
-  color: var(--cyan); 
+  color: var(--blue); 
 }
 
 .volt-text {
@@ -201,7 +208,7 @@ a.a-title {
 }
 
 a {
-color: var(--cyan); 
+color: var(--blue); 
 }
 
 /* bucket app ---------------------------------------------------------*/
