@@ -80,7 +80,14 @@ footer.footer {
 
 .nav-links li {
   margin: 0 20px;
-  border: red solid 2px;
+  /* border: red solid 2px; */
+}
+
+.nav-link.active {
+  background-color: #007bff !important; 
+  color: var(--volt) !important;
+  font-weight: bold; 
+  border: 2px solid black !important;
 }
 
 h1 {
