@@ -10,6 +10,8 @@
   --yellow: #e5dc15;
   --dark-yellow: #c2bb11;
   --bootstrap-dark: #212529;
+  --bootstrap-lighter: #364459;
+  --cyan: #01fff7;
 
 }
 
@@ -57,16 +59,16 @@ main.mx-3 {
 }
 
 header.header {
-  background: var(--volt);
+  background:  var(--bootstrap-lighter);
   padding: 16px;
-  border: var(--blue) solid 8px;
+  border: var(--cyan) solid 8px;
 }
 
 footer.footer {
   margin-top: auto;
-  background: var(--volt);
+  background:  var(--bootstrap-lighter);
   padding: 16px;
-  border: var(--blue) solid 8px;
+  border: var(--cyan) solid 8px;
 }
 
 .nav-links {
@@ -83,22 +85,27 @@ footer.footer {
   /* border: red solid 2px; */
 }
 
-.nav-link.active {
-  background-color: #007bff !important; 
-  color: var(--volt) !important;
-  font-weight: bold; 
+.nav-link {
+  background-color: var(--bootstrap-dark) !important; 
+  color: var(--cyan) !important; 
   border: 2px solid black !important;
+}
+
+.nav-link.active {
+  background-color: var(--bootstrap-dark) !important; 
+  color: var(--volt) !important; 
+  border: 2px solid rgb(179, 255, 0) !important;
 }
 
 h1 {
   margin: 32px 0;
-  color: var(--blue);
+  color: var(--cyan);
   font-size: 24px;
 }
 
 h3 {
   margin: auto;
-  color: rgb(66, 171, 231);
+  color: var(--cyan);
   font-size: 20px;
 }
 
@@ -137,7 +144,7 @@ div.project-card {
   flex-direction: column;
   justify-content: center;
   max-width: 400px;
-  border: 3px solid #ddd;
+  border: 3px solid  var(--cyan);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -169,12 +176,29 @@ a.a-title {
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-  border: var(--blue) solid 3px;
+  border:  var(--cyan) solid 1px;
   border-radius: 3%;
 }
 
 .project-card:hover img {
   opacity: .5;
+}
+/* Footer -------------------------------------------------------------- */
+
+.red-text {
+  color: white;
+}
+
+.cyan-text {
+  color: var(--cyan); 
+}
+
+.volt-text {
+  color: var(--volt); 
+}
+
+a {
+color: var(--cyan); 
 }
 
 /* bucket app ---------------------------------------------------------*/

@@ -90,7 +90,7 @@ function ContactForm() {
                 <label htmlFor="message">Message:</label>
                 <textarea
                     id="message"
-                    placeholder="Enter your message here."
+                    placeholder="Enter your message here"
                     name="message"
                     value={input.message}
                     className="contact-form-input"

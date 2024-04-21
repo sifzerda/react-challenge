@@ -7,10 +7,10 @@ function Footer () {
     return (
 
   <div className="footer">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024 &nbsp;&nbsp;||&nbsp; &nbsp;React Portfolio&nbsp; &nbsp;||&nbsp;&nbsp;sifzerda <br></br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="red-text">2024</span> &nbsp;&nbsp;<span className="cyan-text">⬡</span>&nbsp; &nbsp;<span className="red-text">React Portfolio</span>&nbsp; &nbsp;<span className="cyan-text">⬡</span>&nbsp;&nbsp;<span className="red-text">sifzerda</span><br></br><br></br>
      <a href="https://github.com/sifzerda" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub}  size="2x" /> </a>
-&nbsp; ||&nbsp;&nbsp;&nbsp; <a href="mailto:tydamon@hotmail.com">Contact</a>&nbsp; &nbsp;||&nbsp;&nbsp;
+&nbsp; <span className="red-text">|▷|</span> &nbsp;&nbsp;&nbsp; <a className="volt-text" href="mailto:tydamon@hotmail.com">Contact</a>&nbsp; &nbsp;<span className="red-text">|◁|</span>&nbsp;&nbsp;
   <a href="https://github.com/sifzerda/react-portfolio" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub}  size="2x" /> </a> 
   </div>
