@@ -11,6 +11,7 @@ import '../App.css';
 function ProjectCard({ image, title, description, projectUrl, projectGitUrl }) {
   return (
     
+
     <div className="project-card">
 
 <a className="a-title" href={projectUrl} target="_blank" rel="noopener noreferrer">
@@ -30,6 +31,7 @@ function ProjectCard({ image, title, description, projectUrl, projectGitUrl }) {
 
       </div>
     </div>
+
   );
 }
 

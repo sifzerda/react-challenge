@@ -115,8 +115,17 @@ p.project-description {
   color: #fff;
 }
 
+div.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
 div.project-card {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   max-width: 400px;
