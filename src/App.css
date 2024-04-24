@@ -434,10 +434,13 @@ form {
 
 label {
   display: block;
-  font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 0.2em;
   margin-bottom: 10px;
   margin-top: 10px;
   color: var(--cyan);
+  font-family: 'Source Code Pro';
 }
 
 div.contact-icons {
@@ -530,7 +533,7 @@ a.icon {
   background-color: #5d0cff;
 }
 
-/* ================ Blue squares divider ========================== */
+/* ================ Blue squares divider (fixed: green/volt) ========================== */
 
 div.blue-separator {
   display: flex;
