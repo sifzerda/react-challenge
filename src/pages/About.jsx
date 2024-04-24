@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faNetworkWired } from '@fortawesome/free-solid-svg-icons';
 import { faLaptop } from '@fortawesome/free-solid-svg-icons';'@fortawesome/free-brands-svg-icons';
 import { faSquare } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 export default function About () {
   return (
@@ -11,7 +12,7 @@ export default function About () {
       <h1>About Me</h1>
 
       <p className="separator"> ______
-        <FontAwesomeIcon icon={faNetworkWired} />
+        <FontAwesomeIcon icon={faUser} />
         ______
         <FontAwesomeIcon icon={faLaptop} />
         ______
@@ -20,6 +21,19 @@ export default function About () {
       </p>
 
       <img className="profile-picture" src={profilePic} alt="Profile"  />
+
+      <div className="blue-separator">
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+        <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
+      </div>
 
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

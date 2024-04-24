@@ -1,9 +1,11 @@
 import ProjectList from '../components/ProjectList';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faNetworkWired } from '@fortawesome/free-solid-svg-icons';
 import { faLaptop } from '@fortawesome/free-solid-svg-icons';
 import { faSquare } from '@fortawesome/free-solid-svg-icons';
+
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -14,11 +16,11 @@ export default function Portfolio() {
 
 
       <p className="separator"> ______
-        <FontAwesomeIcon icon={faNetworkWired} />
+        <FontAwesomeIcon icon={faGraduationCap} />
         ______
         <FontAwesomeIcon icon={faLaptop} />
         ______
-        <FontAwesomeIcon icon={faNetworkWired} />
+        <FontAwesomeIcon icon={faBriefcase} />
         ______
       </p>
       

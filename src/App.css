@@ -423,15 +423,6 @@ form {
   color: var(--blue);
 }
 
-.confirmation-message {
-  background-color: #d4edda;
-  color: #155724;
-  border: 1px solid #c3e6cb;
-  border-radius: 4px;
-  padding: 10px;
-  margin-top: 10px;
-}
-
 label {
   display: block;
   text-decoration-line: underline;
@@ -469,7 +460,9 @@ div.confirmation-message {
   border: 3px solid #ffffff;
   border-radius: 4px;
   width: 25%;
+  height: 105px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 a.icon {
