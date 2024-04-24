@@ -390,6 +390,10 @@ color: white;
 
 /* ================== Contact Form ============== */
 
+p.contact-text {
+margin-right: 12px;
+}
+
 .form-container input,
 .form-container textarea {
   width: 100%;
@@ -432,6 +436,7 @@ label {
   margin-top: 10px;
   color: var(--cyan);
   font-family: 'Source Code Pro';
+  
 }
 
 div.contact-icons {

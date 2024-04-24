@@ -28,28 +28,28 @@ export default function Contact() {
           <a href="mailto:tydamon@hotmail.com" className="icon">
             <FontAwesomeIcon icon={faEnvelope} size="2x" />
           </a>
-          <p>Email</p>
+          <p className='contact-text'>Email</p>
         </div>
 
         <div className="icon-container">
           <a href="https://github.com/sifzerda" className="icon">
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
-          <p>GitHub</p>
+          <p className='contact-text'>GitHub</p>
         </div>
 
         <div className="icon-container">
           <a href="https://github.com/sifzerda" className="icon">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
-          <p>LinkedIn</p>
+          <p className='contact-text'>LinkedIn</p>
         </div>
 
         <div className="icon-container">
           <a href="https://github.com/sifzerda" className="icon">
             <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
-          <p>Facebook</p>
+          <p className='contact-text'>Facebook</p>
         </div>
 
 
