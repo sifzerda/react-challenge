@@ -48,7 +48,7 @@ function ContactForm() {
 
         <form onSubmit={handleSubmit}>
             <div>
-                <label htmlFor="name">Name:</label>
+                <label htmlFor="name">Name</label>
                 <input
                     type="text"
                     placeholder="Name or contact reference..."
@@ -61,7 +61,7 @@ function ContactForm() {
                 />
             </div>
             <div>
-                <label htmlFor="email">Email:</label>
+                <label htmlFor="email">Email</label>
                 <input
                     type="email"
                     placeholder="Email address..."
@@ -74,7 +74,7 @@ function ContactForm() {
                 />
             </div>
             <div>
-                <label htmlFor="subject">Subject:</label>
+                <label htmlFor="subject">Subject</label>
                 <input
                     type="subject"
                     placeholder="Enter message subject..."
@@ -87,7 +87,7 @@ function ContactForm() {
                 />
             </div>
             <div>
-                <label htmlFor="message">Message:</label>
+                <label htmlFor="message">Message</label>
                 <textarea
                     id="message"
                     placeholder="Enter your message here"

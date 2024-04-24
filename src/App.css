@@ -403,6 +403,12 @@ form {
   margin: 0 auto;
 }
 
+.form-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
 .form-container button {
   background-color: var(--blue);
   color: white;
@@ -429,8 +435,9 @@ form {
 label {
   display: block;
   font-weight: bold;
-  margin-bottom: 5px;
-  color: #ffffff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: var(--cyan);
 }
 
 div.contact-icons {
@@ -527,16 +534,17 @@ a.icon {
 
 div.blue-separator {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   /* Align squares with space between */
   align-items: center;
-  padding: 35px 35px 110px 110px;
+  padding: 35px 0;
 }
 
 .blue-square {
   width: 8px;
   height: 8px;
   background-color: var(--volt);
+  margin: 0 5px;
 }
 
 #root {
@@ -693,7 +701,7 @@ div.blue-separator {
   }
 
   .form-container button {
-    padding: 8px 216px;
+    padding: 8px 16px;
     font-size: 14px;
   }
 
