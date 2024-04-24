@@ -20,8 +20,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -43,7 +42,6 @@ div#root {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-
   width: 100%;
   /*below will make app take up full height of page*/
   min-height: 100vh;
@@ -56,20 +54,19 @@ div#root {
 
 main.mx-3 {
   margin: 0 20px;
-
 }
 
 header.header {
-  background: rgb(54,68,89);
-  background: radial-gradient(circle, rgba(54,68,89,1) 0%, rgba(54,68,89,1) 35%, rgba(33,37,41,1) 100%);
+  background: rgb(54, 68, 89);
+  background: radial-gradient(circle, rgba(54, 68, 89, 1) 0%, rgba(54, 68, 89, 1) 35%, rgba(33, 37, 41, 1) 100%);
   padding: 16px;
   border: var(--volt) ridge 8px;
 }
 
 footer.footer {
   margin-top: auto;
-  background: rgb(54,68,89);
-  background: radial-gradient(circle, rgba(54,68,89,1) 0%, rgba(54,68,89,1) 35%, rgba(33,37,41,1) 100%);
+  background: rgb(54, 68, 89);
+  background: radial-gradient(circle, rgba(54, 68, 89, 1) 0%, rgba(54, 68, 89, 1) 35%, rgba(33, 37, 41, 1) 100%);
   padding: 16px;
   border: var(--volt) ridge 8px;
 }
@@ -89,15 +86,15 @@ footer.footer {
 }
 
 .nav-link {
-  background-color: var(--bootstrap-dark) !important; 
-  color: white !important; 
+  background-color: var(--bootstrap-dark) !important;
+  color: white !important;
   border: 2px solid black !important;
   font-family: 'Source Code Pro';
 }
 
 .nav-link.active {
-  background-color: var(--bootstrap-dark) !important; 
-  color: var(--volt) !important; 
+  background-color: var(--bootstrap-dark) !important;
+  color: var(--volt) !important;
   border: 2px solid rgb(179, 255, 0) !important;
   font-style: italic;
 }
@@ -156,7 +153,7 @@ div.project-card {
   flex-direction: column;
   justify-content: center;
   max-width: 400px;
-  border: 3px solid  var(--bootstrap-lighter);
+  border: 3px solid var(--bootstrap-lighter);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -164,7 +161,7 @@ div.project-card {
 
 div.project-card:hover {
   opacity: 0.8;
-  border:  var(--cyan) solid 3px;
+  border: var(--cyan) solid 3px;
 }
 
 .project-image {
@@ -188,14 +185,15 @@ a.a-title {
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-  border:  var(--bootstrap-lighter) solid 3px;
+  border: var(--bootstrap-lighter) solid 3px;
   border-radius: 3%;
 }
 
 .project-card:hover img {
   opacity: .5;
-  border:  var(--cyan) solid 3px;
+  border: var(--cyan) solid 3px;
 }
+
 /* Footer -------------------------------------------------------------- */
 
 .red-text {
@@ -203,15 +201,15 @@ a.a-title {
 }
 
 .cyan-text {
-  color: var(--blue); 
+  color: var(--blue);
 }
 
 .volt-text {
-  color: var(--volt); 
+  color: var(--volt);
 }
 
 a {
-color: var(--blue); 
+  color: var(--blue);
 }
 
 /* bucket app ---------------------------------------------------------
@@ -331,16 +329,13 @@ color: var(--blue);
   cursor: pointer;
 }
 
-.delete-icon {
+.delete-icon,
+.edit-icon {
   margin-right: 5px;
   color: #fff;
 }
 
-.edit-icon {
-  color: #fff;
-}
-
-/* =============================== Label on project img hover*/ 
+/* =============================== Label on project img hover*/
 
 .project-card {
   position: relative;
@@ -356,7 +351,7 @@ color: var(--blue);
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.5);
-  color:  var(--cyan);
+  color: var(--cyan);
   border: rgb(255, 255, 255) solid 2px;
   padding: 10px;
   display: none;
@@ -364,16 +359,16 @@ color: var(--blue);
 }
 
 .label p {
-
-  color:  var(--cyan);
+  color: var(--cyan);
   font-size: 24px;
 }
 
 .image-container:hover .label {
-  display: block; /* Show the label when hovering over the image container */
+  display: block;
+  /* Show the label when hovering over the image container */
 }
 
-/* ================== Contact Form ============== */ 
+/* ================== Contact Form ============== */
 
 .form-container input,
 .form-container textarea {
@@ -419,22 +414,23 @@ label {
 
 div.contact-icons {
   display: flex;
-  justify-content: center; 
-  flex-wrap: wrap; 
-/*  border: red solid 2px;  ------ only apply this to locate flexboxes*/
+  justify-content: center;
+  flex-wrap: wrap;
+  /*  border: red solid 2px;  ------ only apply this to locate flexboxes*/
 }
 
 .icon-container {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   align-items: center;
-  margin-right: 10px; 
-  margin-bottom: 10px; 
-/*  border: red solid 2px;  ------ only apply this to locate flexboxes*/
+  margin-right: 10px;
+  margin-bottom: 10px;
+  /*  border: red solid 2px;  ------ only apply this to locate flexboxes*/
 }
 
 .icon-container p {
-  margin-left: 15px; /* Adds space between icon and text */
+  margin-left: 15px;
+  /* Adds space between icon and text */
 }
 
 div.confirmation-message {
@@ -513,10 +509,7 @@ div.blue-separator {
   justify-content: space-between;
   /* Align squares with space between */
   align-items: center;
-  padding-bottom: 35px;
-  padding-top: 35px;
-  padding-left: 110px;
-  padding-right: 110px;
+  padding: 35px 35px 110px 110px;
 }
 
 .blue-square {
@@ -547,6 +540,14 @@ div.blue-separator {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -557,30 +558,187 @@ div.blue-separator {
   }
 }
 
+/* ========================= media queries ======================== */
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
 
-/* Media query for contact flex-box icons for larger screens */
-@media screen and (min-width: 768px) {
-div.icon-container {
-    justify-content: center; 
-    margin-right: 20px; 
-  }}
-
 /* media query for contact flex-box icons*/
 @media screen and (max-width: 600px) {
-div.icon-container {
-    flex-basis: 50%; 
+  div.icon-container {
+    flex-basis: 50%;
   }
 }
 
-.card {
-  padding: 2em;
-}
+/* Small screens (mobile devices) */
+@media screen and (max-width: 768px) {
+  div#root {
+    padding: 2rem;
+  }
 
-.read-the-docs {
-  color: #888;
+  h1 {
+    font-size: 32px;
+  }
+
+  div.project-card {
+    max-width: 300px;
+  }
+
+  div.project-list {
+    padding: 10px;
+  }
+
+  .nav-links li {
+    margin: 0 10px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  h1 {
+    margin: 16px 0;
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p.separator {
+    margin-bottom: 20px;
+  }
+
+  img.profile-picture {
+    width: 150px;
+    height: 150px;
+  }
+
+  p,
+  p.project-description {
+    font-size: 14px;
+  }
+
+  div.project-list {
+    gap: 20px;
+    padding: 10px;
+  }
+
+  div.project-card {
+    max-width: 300px;
+    border: 2px solid var(--bootstrap-lighter);
+  }
+
+  div.project-card:hover {
+    border: var(--cyan) solid 2px;
+  }
+
+  a.a-title {
+    margin: 10px;
+  }
+
+  .project-info {
+    padding: 10px;
+  }
+
+  .project-title {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .project-description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .icons {
+    font-size: 20px;
+  }
+
+  .label {
+    padding: 5px;
+  }
+
+  .label p {
+    font-size: 14px;
+  }
+
+  form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .form-container button {
+    padding: 8px 216px;
+    font-size: 14px;
+  }
+
+  .confirmation-message {
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+  }}
+
+/* Medium screens (tablets) */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+
+  /* Add your styles for medium screens here */
+  /* For example: */
+  div#root {
+    padding: 3rem;
+  }
+
+  .bucket-app {
+    padding-bottom: 12px;
+  }
+
+  main.mx-3 {
+    margin: 0 10px;
+  }
+
+  footer.footer {
+    padding: 12px;
+    border-width: 6px;
+  }
+
+  div.project-list {
+    gap: 20px;
+    padding: 10px;
+  }
+
+  div.project-card {
+    max-width: 300px;
+    border-width: 2px;
+    margin-bottom: 10px;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  .form-container button {
+    padding: 8px 16px;
+    font-size: 14px; 
+  }
+
+  div.blue-separator {
+    padding: 25px 50px;
+  }}
+
+/* Large screens (desktops and laptops) */
+@media screen and (min-width: 1024px) {
+
+  /* Add your styles for large screens here */
+  /* For example: */
+  div#root {
+    padding: 4rem;
+  }
+
+  div.icon-container {
+    justify-content: center;
+    margin-right: 20px;
+  }
 }
