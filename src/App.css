@@ -14,6 +14,7 @@
   --bootstrap-dark: #212529;
   --bootstrap-lighter: #364459;
   --cyan: #01fff7;
+  --light-red: #f02652;
 }
 
 * {
@@ -198,18 +199,37 @@ a.a-title {
 
 .red-text {
   color: white;
+  font-family: 'Source Code Pro';
 }
 
 .cyan-text {
   color: var(--blue);
+  font-family: 'Source Code Pro';
 }
 
 .volt-text {
   color: var(--volt);
+  font-family: 'Source Code Pro';
+}
+
+.volt-text:hover {
+  color: var(--light-red);
+  font-family: 'Source Code Pro';
+  font-style: italic;
 }
 
 a {
   color: var(--blue);
+  font-family: 'Source Code Pro';
+}
+
+a:hover {
+  color: white;
+  font-family: 'Source Code Pro';
+}
+
+a.icon:hover {
+color: white;
 }
 
 /* bucket app ---------------------------------------------------------
@@ -393,7 +413,8 @@ form {
 }
 
 .form-container button:hover {
-  background-color: #0056b3;
+  background-color: white;
+  color: var(--blue);
 }
 
 .confirmation-message {
