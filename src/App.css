@@ -385,7 +385,6 @@ color: white;
 
 .image-container:hover .label {
   display: block;
-  /* Show the label when hovering over the image container */
 }
 
 /* ================== Contact Form ============== */
@@ -436,7 +435,7 @@ label {
   margin-top: 10px;
   color: var(--cyan);
   font-family: 'Source Code Pro';
-  
+
 }
 
 div.contact-icons {
