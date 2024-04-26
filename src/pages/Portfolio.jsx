@@ -1,11 +1,7 @@
 import ProjectList from '../components/ProjectList';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptop } from '@fortawesome/free-solid-svg-icons';
-import { faSquare } from '@fortawesome/free-solid-svg-icons';
-
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faGraduationCap, faSquare, faLaptop } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -24,13 +20,10 @@ export default function Portfolio() {
         ______
       </p>
       
-      
-      
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. 
+      <p className='portfolio-bio'>
+        Welcome to my Portfolio! This is a collection of my recently completed coding projects. 
+        It includes apps with both front end and back end technologies, using HTML, CSS, 
+        JavaScript, React, Node, Express, MySQL, MongoDB, and GraphQL.  
       </p>
 
       <div className="blue-separator">

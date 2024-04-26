@@ -2,11 +2,7 @@ import ContactForm from '../components/ContactForm';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faSquare } from '@fortawesome/free-solid-svg-icons';
-
-import { faNetworkWired } from '@fortawesome/free-solid-svg-icons';
-import { faLaptop } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faLaptop, faNetworkWired, faSquare } from '@fortawesome/free-solid-svg-icons';
 
 export default function Contact() {
   return (
@@ -21,7 +17,6 @@ export default function Contact() {
         <FontAwesomeIcon icon={faNetworkWired} />
         ______
       </p>
-
 
       <div className="contact-icons">
         <div className="icon-container">

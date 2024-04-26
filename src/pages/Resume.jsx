@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptop } from '@fortawesome/free-solid-svg-icons';
-import { faListAlt } from '@fortawesome/free-solid-svg-icons';
-import { faPen } from '@fortawesome/free-solid-svg-icons';
-import { faSquare } from '@fortawesome/free-solid-svg-icons';
+import { faLaptop, faListAlt, faPen, faSquare } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Resume() {
   return (
@@ -18,12 +16,36 @@ export default function Resume() {
         ______
       </p>
 
-
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex.
+      <p className="resume">{`>>`}
+        <a href="https://drive.google.com/uc?export=download&id=19pXHC5uFwu96z9P1fkHkhXiQm_8Ca9ZB">
+          Download Resume
+        </a>
+        {`<<`}
       </p>
+
+      <h3 className="resume-title">Front-End Proficiencies</h3>
+
+      <ul className="resume">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Responsive Design</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+      </ul>
+
+      <h3 className="resume-title">Back-End Proficiencies</h3>
+
+      <ul className="resume">
+        <li>APIs</li>
+        <li>Node</li>
+        <li>Express</li>
+        <li>MySQL, Sequelize</li>
+        <li>MongoDB, Mongoose</li>
+        <li>REST</li>
+        <li>GraphQL</li>
+      </ul>
 
       <div className="blue-separator">
         <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />

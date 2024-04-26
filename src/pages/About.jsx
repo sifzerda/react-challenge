@@ -1,14 +1,12 @@
 import profilePic from '../assets/propic.jpg';
 import '../App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faNetworkWired } from '@fortawesome/free-solid-svg-icons';
-import { faLaptop } from '@fortawesome/free-solid-svg-icons';'@fortawesome/free-brands-svg-icons';
-import { faSquare } from '@fortawesome/free-solid-svg-icons';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faSquare, faLaptop, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
 
 export default function About () {
   return (
     <div>
+      <h3 className="thanks">Thanks for stopping by!</h3>
       <h1>About Me</h1>
 
       <p className="separator"> ______
@@ -35,13 +33,11 @@ export default function About () {
         <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
       </div>
 
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      <p className='portfolio-bio'>
+      I am a Web Development bootcamp student at Monash University, and aspiring Web Developer and coder. 
+      In my spare time I love reading, writing, arts, swimming and music. As someone keen to pursue a career in tech, I enjoy using my creativity, attention to detail, 
+      and passion for learning to advance in the tech world and achieve outcomes that make a 
+      difference.
       </p>
 
       <div className="blue-separator">

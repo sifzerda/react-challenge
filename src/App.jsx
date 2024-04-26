@@ -17,6 +17,8 @@ function App() {
       <header className="header">
       <Header />
 
+<h1 className="my-name">Troy Damon</h1>
+
       <Navigation />
       </header>
 
