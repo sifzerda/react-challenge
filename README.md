@@ -15,7 +15,9 @@
 
 ## 1. Description
 
-ENTER DESCRIPTION.
+This is my personal portfolio site, 
+
+It runs a single page split into multiple tabs which display an About Me page, Portfolio Projects, Contact details, and my Resume. The front end is built in React using the Vite tool, with Header, Footer, Navigation, Contact, and Project components. The Portfolio page contains links to my completed projects, and my Resume is able to be downloaded via a link on the Resume page. Users can leave submit a message on the Contact page, however this currently lacks full functionality. This app has been deployed to Netlify.
 
 ## 2. Badges
 
@@ -27,17 +29,17 @@ ENTER DESCRIPTION.
 
 URL of app deployed to Netlify: 
 
-[JATE text editor](https://jate-text-editor-10.onrender.com)
+[Personal Portfolio Page](https://jate-text-editor-10.onrender.com)
 
 Screenshot
 
-![image](https://github.com/sifzerda/JATE-text-editor/assets/139626561/2c2cfa85-f979-451e-ab2a-3d43df68b7fd)
+![image](https://github.com/sifzerda/Tech-Blog/assets/139626561/83208607-f29b-4ef8-a038-41ba0814ef53)
 
-![image](https://github.com/sifzerda/JATE-text-editor/assets/139626561/5a123203-d3b0-4222-b339-cb153e7ad662)
+![image](https://github.com/sifzerda/Tech-Blog/assets/139626561/a41b3995-3bea-4fe2-8e23-9ae4792f684e)
 
-![image](https://github.com/sifzerda/JATE-text-editor/assets/139626561/c07649d8-f17e-497b-accb-ee7e4ca7e161)
+![image](https://github.com/sifzerda/Tech-Blog/assets/139626561/cfcf8da9-ebb6-4d31-bff6-50b334a55580)
 
-![image](https://github.com/sifzerda/JATE-text-editor/assets/139626561/06981819-b9e4-4c02-a1d7-eb085e6787f2)
+![image](https://github.com/sifzerda/Tech-Blog/assets/139626561/d9bdb58f-a68b-40de-b52b-ad8ccc74ece8)
 
 ## 4. Installation
 
