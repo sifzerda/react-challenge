@@ -28,7 +28,7 @@ It runs a single page split into multiple tabs which display an About Me page, P
 
 URL of app deployed to Netlify: 
 
-[Personal Portfolio Page](https://jate-text-editor-10.onrender.com)
+[Personal Portfolio Page](https://sparkling-faloodeh-5b05b8.netlify.app/)
 
 Screenshot
 
