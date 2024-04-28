@@ -1,7 +1,7 @@
 import ContactForm from '../components/ContactForm';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faLaptop, faNetworkWired, faSquare } from '@fortawesome/free-solid-svg-icons';
 
 export default function Contact() {
@@ -34,17 +34,17 @@ export default function Contact() {
         </div>
 
         <div className="icon-container">
-          <a href="https://github.com/sifzerda" className="icon">
+          <a href="https://linkedin.com/in/troy-damon-7625392a3" className="icon">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
           <p className='contact-text'>LinkedIn</p>
         </div>
 
         <div className="icon-container">
-          <a href="https://github.com/sifzerda" className="icon">
-            <FontAwesomeIcon icon={faFacebook} size="2x" />
+          <a href="https://stackoverflow.com/users/23265266/td99999" className="icon">
+            <FontAwesomeIcon icon={faStackOverflow} size="2x" />
           </a>
-          <p className='contact-text'>Facebook</p>
+          <p className='contact-text'>Stack Overflow</p>
         </div>
 
 
