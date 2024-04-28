@@ -6,12 +6,11 @@
 2. Badges
 3. Visuals
 4. Installation
-5. Usage
-6. Support
-7. Contributing 
-8. Authors and acknowledgment
-9. License
-10. Project status
+5. Support
+6. Contributing 
+7. Authors and acknowledgment
+8. License
+9.  Project status
 
 ## 1. Description
 
@@ -46,19 +45,14 @@ Screenshot
 
 ```diff
 - npm install i
-! npm run build
 + npm run start OR npm run dev
 ```
 
-## 5. Usage
-
-This is a text editor which can record and save notes, and has offline interface display and functionality using cache plugins and a service worker. Text is saved into indexedDB keys and also local storage and can be retrieved later. 
-
-## 6. Support
+## 5. Support
 
 For support, users can contact tydamon@hotmail.com. Links to my github and the app repo are also in the footer of the blog.
 
-## 8. Contributing
+## 6. Contributing
 
 Any contributions you make are greatly appreciated.
 
@@ -69,7 +63,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 4.	Push to the Branch (git push origin feature/NewFeature)
 5.	Open a Pull Request
 
-## 9. Authors and acknowledgment
+## 7. Authors and acknowledgment
 
 The author acknowledges and credits those who have contributed to this project, including:
 
@@ -77,10 +71,10 @@ The author acknowledges and credits those who have contributed to this project, 
 -	Chee Ho Tai
 -	Pranita Shrestha
 
-## 10. License
+## 8. License
 
 Distributed under the MIT License. See LICENSE.txt for more information.
  
-## 11. Project status
+## 9. Project status
 
 This project is completed.
