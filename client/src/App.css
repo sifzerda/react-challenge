@@ -440,6 +440,20 @@ p.contact-text {
 margin-right: 12px;
 }
 
+.icon-container-red {
+  display: flex;
+  justify-content: center; 
+}
+
+.contact-text-red {
+  margin-right: 12px;
+  background-color: rgb(187, 255, 0);
+  color: black;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
 .form-container input,
 .form-container textarea {
   width: 100%;
@@ -451,6 +465,10 @@ margin-right: 12px;
 form {
   width: 40%;
   margin: 0 auto;
+}
+
+.wider-form {
+  width: 350px;
 }
 
 .form-container {

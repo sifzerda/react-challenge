@@ -2,107 +2,91 @@ import '../App.css';
 import { useState } from 'react';
 
 function ContactForm() {
-    const [input, setInput] = useState({
-        name: '',
-        email: '',
-        message: '',
-        subject: ''
+  const [result, setResult] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "708713b1-69b5-418e-90fc-b7a87b692e53");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
     });
 
-    const [submitted, setSubmitted] = useState(false);
+    const data = await response.json();
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setInput({
-            ...input,
-            [name]: value,
-        });
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      setSubmitted(true);
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+      setResult("There was an error submitting your message");
     }
+  };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setInput({
-            name: '',
-            email: '',
-            subject: '',
-            message: '',
-        });
-        setSubmitted(true);
-    };
-
-    //  const handleChange = (e) => {
-    //    setInput(e.target.value);
-    //  };
-
-    // First we check to see if "edit" prop exists. If not, we render the normal form
-    // If the prop "edit" exists, we know to render the update form instead
-    return (
-// if submitted, display confirmation message
-// if not not, handle submit
-     <div className="form-container">
-        {submitted ? (
-          <div className="confirmation-message">
-            <p>Thank you for your message!</p>
-          </div>
-        ) : (
-
-        <form onSubmit={handleSubmit}>
-            <div>
+  return (
+    <div className="form-container">
+      {submitted ? (
+        <div className="confirmation-message">
+          <p>Thank you for your message!</p>
+        </div>
+      ) : (
+        <div>
+          {result === "Form Submitted Successfully" ? (
+            <div className="success-message">
+              <p>{result}</p>
+            </div>
+          ) : result === "Sending...." ? (
+            <div className="sending-message">
+              <p>{result}</p>
+            </div>
+          ) : (
+            <form onSubmit={onSubmit} className="wider-form">
+              <div>
                 <label htmlFor="name">Name</label>
                 <input
-                    type="text"
-                    placeholder="Name or contact reference..."
-                    id="name"
-                    name="name"
-                    value={input.name}
-                    className="contact-form-input"
-                    onChange={handleChange}
-                    required
+                  type="text"
+                  placeholder="Name or contact reference..."
+                  id="name"
+                  name="name"
+                  className="contact-form-input"
+                  required
                 />
-            </div>
-            <div>
+              </div>
+              <div>
                 <label htmlFor="email">Email</label>
                 <input
-                    type="email"
-                    placeholder="Email address..."
-                    id="email"
-                    name="email"
-                    value={input.email}
-                    className="contact-form-input"
-                    onChange={handleChange}
-                    required
+                  type="email"
+                  placeholder="Email address..."
+                  id="email"
+                  name="email"
+                  className="contact-form-input"
+                  required
                 />
-            </div>
-            <div>
-                <label htmlFor="subject">Subject</label>
-                <input
-                    type="subject"
-                    placeholder="Enter message subject..."
-                    id="subject"
-                    name="subject"
-                    value={input.subject}
-                    className="contact-form-input"
-                    onChange={handleChange}
-                    required
-                />
-            </div>
-            <div>
+              </div>
+              <div>
                 <label htmlFor="message">Message</label>
                 <textarea
-                    id="message"
-                    placeholder="Enter your message here"
-                    name="message"
-                    value={input.message}
-                    className="contact-form-input"
-                    onChange={handleChange}
-                    required
-                />
-            </div>
-            <button type="submit">Submit</button>
-        </form>
-)}
+                  placeholder="Enter your message here"
+                  id="message"
+                  name="message"
+                  className="contact-form-input"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit">Submit Form</button>
+            </form>
+          )}
         </div>
-    );
+      )}
+    </div>
+  );
 }
 
 export default ContactForm;

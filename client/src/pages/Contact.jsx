@@ -63,9 +63,11 @@ export default function Contact() {
         <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
       </div>
 
-      <div className="form-box">
+      <div className="icon-container-red">
+          <p className='contact-text-red'>Note: This is a working contact form and will submit your message to my email</p>
+        </div>
 
-        <h1>Leave A Message</h1>
+      <div className="form-box">
         <ContactForm />
       </div>
 

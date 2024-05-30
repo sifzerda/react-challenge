@@ -14,9 +14,11 @@
 
 ## 1. Description
 
-This is my personal portfolio site, 
+This is my personal portfolio site.
 
-It runs a single page split into multiple tabs which display an About Me page, Portfolio Projects, Contact details, and my Resume. The front end is built in React using the Vite tool, with Header, Footer, Navigation, Contact, and Project components. The Portfolio page contains links to my completed projects, and my Resume is able to be downloaded via a link on the Resume page. Users can leave submit a message on the Contact page, however this currently lacks full functionality. This app has been deployed to Netlify.
+It runs a single page split into multiple tabs which display an About Me page, Portfolio Projects, Contact details, and my Resume. The front end is built in React using the Vite tool, with Header, Footer, Navigation, Contact, and Project components. The Portfolio page contains links to my completed projects, and my Resume is able to be downloaded via a link on the Resume page. Users can leave submit a message on the Contact page, which I will receive in email. This app has been deployed to Netlify.
+
+* Update: this used to be a front-end only app, but I recently put a back-end in (express server) to give the contact form functionality through web3forms. Messages will now be received via my email.
 
 ## 2. Badges
 
@@ -41,7 +43,6 @@ Screenshot
 ![image](https://github.com/sifzerda/Tech-Blog/assets/139626561/d9bdb58f-a68b-40de-b52b-ad8ccc74ece8)
 
 ## 4. Installation
-
 
 ```diff
 - npm install i
