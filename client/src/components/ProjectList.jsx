@@ -27,7 +27,7 @@ function ProjectList() {
     {
       title: 'Tour de Force',
       image: tourdeforcePic,
-      description: 'This is a design concept for a ticket purchasing app that allows users to browse music concerts, purchase a ticket, and buy show merchandise. The app is built with React, Bootstrap, and CSS, and uses MongoDB and graphql at the back end. It is deployed on Heroku.',
+      description: 'This is a design concept for a ticket purchasing app that allows users to browse music concerts, purchase a ticket, and buy show merchandise. The app is built with React, Bootstrap, and CSS, and uses an Express server, MongoDB and graphql at the back end. It is deployed on Heroku.',
       projectUrl: 'https://tour-de-force-397007b365cc.herokuapp.com/',
       projectGitUrl: 'https://github.com/sifzerda/tour-de-force',
     },
