@@ -10,6 +10,7 @@ import quizPic from '../assets/codingquiz.jpg';
 //import passwordPic from '../assets/passwordgenerator.jpg';
 import tourdeforcePic from '../assets/tourdeforcePic.jpg';
 import ficMap from '../assets/fictionmap.jpg';
+import horrorMap from '../assets/horrormap.jpg';
 
 // https://www.npmjs.com/package/@tippyjs/react
 
@@ -17,9 +18,17 @@ function ProjectList() {
   const projects = [
 
     {
+      title: 'Horror Map',
+      image: horrorMap, 
+      description: 'This is a currently unfinished personal project which provides a guide for horror fiction-writing. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up and leave comments on each page',    
+      projectUrl: 'https://fic-map.netlify.app/',
+      projectGitUrl: 'https://github.com/sifzerda/horror-fiction',    
+    },
+
+    {
       title: 'Fiction Map',
       image: ficMap, 
-      description: 'This is a currently unfinished personal project which provides a guide for fiction-writing. Currently a front-end only, built with React. Pending back-end installation (to do)',    
+      description: 'This is a personal project which provides a guide for fiction-writing. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up and leave comments on each page.',    
       projectUrl: 'https://fic-map.netlify.app/',
       projectGitUrl: 'https://github.com/sifzerda/fiction',    
     },
