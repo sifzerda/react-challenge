@@ -18,19 +18,19 @@ function ProjectList() {
   const projects = [
 
     {
-      title: 'Horror Map',
+      title: 'The Horror Map',
       image: horrorMap, 
-      description: 'This is a currently unfinished personal project which provides a guide for horror fiction-writing. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up and leave comments on each page',    
-      projectUrl: 'https://fic-map.netlify.app/',
-      projectGitUrl: 'https://github.com/sifzerda/horror-fiction',    
+      description: 'This blog site which provides a guide for horror fiction-writing. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up and leave comments on each page',    
+      projectUrl: 'https://horror-map-3b5accd83dc7.herokuapp.com/',
+      projectGitUrl: 'https://github.com/sifzerda/hmap',    
     },
 
     {
-      title: 'Fiction Map',
+      title: 'The Fiction Map',
       image: ficMap, 
-      description: 'This is a personal project which provides a guide for fiction-writing. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up and leave comments on each page.',    
-      projectUrl: 'https://fic-map.netlify.app/',
-      projectGitUrl: 'https://github.com/sifzerda/fiction',    
+      description: 'This is a blog site which provides a guide for fiction-writing. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up and leave comments on each page.',    
+      projectUrl: 'https://fiction-map-d72538a215a2.herokuapp.com/',
+      projectGitUrl: 'https://github.com/sifzerda/fmap',    
     },
 
     {
