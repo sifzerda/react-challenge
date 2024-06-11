@@ -30,7 +30,7 @@ It runs a single page split into multiple tabs which display an About Me page, P
 
 URL of app deployed to Netlify: 
 
-[Personal Portfolio Page](https://sparkling-faloodeh-5b05b8.netlify.app/)
+[Personal Portfolio Page]([https://sparkling-faloodeh-5b05b8.netlify.app/](https://react-challenge-265ddfddef93.herokuapp.com/))
 
 Screenshot
 
