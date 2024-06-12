@@ -28,9 +28,9 @@ It runs a single page split into multiple tabs which display an About Me page, P
 
 ## 3. Visuals
 
-URL of app deployed to Netlify: 
+URL of app deployed to Heroku: 
 
-[Personal Portfolio Page]([https://sparkling-faloodeh-5b05b8.netlify.app/](https://react-challenge-265ddfddef93.herokuapp.com/))
+[Personal Portfolio Page]([https://react-challenge-265ddfddef93.herokuapp.com](https://react-challenge-265ddfddef93.herokuapp.com/])
 
 Screenshot
 
