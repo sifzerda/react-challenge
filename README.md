@@ -30,7 +30,7 @@ It runs a single page split into multiple tabs which display an About Me page, P
 
 This app has been deployed to both Heroku and Netlify (Netlify will load faster):
 
-[App deployed on Heroku](https://react-td-portfolio.netlify.app/)
+[App deployed on Heroku](https://react-challenge-265ddfddef93.herokuapp.com/)
 
 [App deployed on Netlify](https://react-td-portfolio.netlify.app/)
 
