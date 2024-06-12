@@ -30,7 +30,7 @@ It runs a single page split into multiple tabs which display an About Me page, P
 
 URL of app deployed to Heroku: 
 
-https://react-challenge-265ddfddef93.herokuapp.com/
+[https://react-challenge-265ddfddef93.herokuapp.com/](https://react-td-portfolio.netlify.app/)
 
 Screenshot
 
