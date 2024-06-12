@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptop, faListAlt, faPen, faSquare } from '@fortawesome/free-solid-svg-icons';
 
-
 export default function Resume() {
   return (
     <div>
@@ -45,6 +44,7 @@ export default function Resume() {
         <li>MongoDB, Mongoose</li>
         <li>REST</li>
         <li>GraphQL</li>
+        <li>PWAs</li>
       </ul>
 
       <div className="blue-separator">
@@ -59,8 +59,6 @@ export default function Resume() {
         <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
         <FontAwesomeIcon icon={faSquare} className="blue-square" size="sm" />
       </div>
-
-
 
     </div>
   );
