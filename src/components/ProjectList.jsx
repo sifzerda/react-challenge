@@ -11,11 +11,20 @@ import quizPic from '../assets/codingquiz.jpg';
 import tourdeforcePic from '../assets/tourdeforcePic.jpg';
 import ficMap from '../assets/fictionmap.jpg';
 import horrorMap from '../assets/horrormap.jpg';
+import minePic from '../assets/mine.jpg';
 
 // https://www.npmjs.com/package/@tippyjs/react
 
 function ProjectList() {
   const projects = [
+
+    {
+      title: 'Minesweeper',
+      image: minePic, 
+      description: 'A site with a game of minesweeper. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up, submit and view their high scores on the score board or their profile',    
+      projectUrl: 'https://minesweeper10-611b154e8013.herokuapp.com/',
+      projectGitUrl: 'https://github.com/sifzerda/minesweeper',    
+    },
 
     {
       title: 'The Horror Map',
