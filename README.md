@@ -18,7 +18,7 @@ This is my personal portfolio site.
 
 It runs a single page split into multiple tabs which display an About Me page, Portfolio Projects, Contact details, and my Resume. The front end is built in React using the Vite tool, with Header, Footer, Navigation, Contact, and Project components. The Portfolio page contains links to my completed projects, and my Resume is able to be downloaded via a link on the Resume page. Users can leave submit a message on the Contact page, which I will receive in email. This app has been deployed to Netlify.
 
-* Update: this used to be a front-end only app, but I recently put a back-end in (express server) to give the contact form functionality through web3forms. Messages will now be received via my email.
+* Update: this started as a front-end only app. After deployment to Netlify I put a back-end in (express server + MongoSB and graphql) to give the contact form functionality through web3forms, and for any future development. This caused the app to not display on Netlify anymore, so I deployed it to Heroku, and then refactored it back to just being front-end and deployed it again back onto Netlify.
 
 ## 2. Badges
 
@@ -28,9 +28,11 @@ It runs a single page split into multiple tabs which display an About Me page, P
 
 ## 3. Visuals
 
-URL of app deployed to Heroku: 
+This app has been deployed to both Heroku and Netlify (Netlify will load faster):
 
-https://react-challenge-265ddfddef93.herokuapp.com/
+[App deployed on Heroku](https://react-challenge-265ddfddef93.herokuapp.com/)
+
+[App deployed on Netlify](https://react-td-portfolio.netlify.app/)
 
 Screenshot
 
