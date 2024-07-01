@@ -12,6 +12,7 @@ import tourdeforcePic from '../assets/tourdeforcePic.jpg';
 import ficMap from '../assets/fictionmap.jpg';
 import horrorMap from '../assets/horrormap.jpg';
 import minePic from '../assets/mine.jpg';
+import solPic from '../assets/solPic.jpg';
 
 // https://www.npmjs.com/package/@tippyjs/react
 
@@ -19,9 +20,17 @@ function ProjectList() {
   const projects = [
 
     {
+      title: 'Solitaire',
+      image: solPic, 
+      description: 'A site with a game of solitaire. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up, submit and view their best times on their profile.',    
+      projectUrl: 'https://solitaire-10-c835a42e5e11.herokuapp.com/',
+      projectGitUrl: 'https://github.com/sifzerda/solitaire',    
+    },
+
+    {
       title: 'Minesweeper',
       image: minePic, 
-      description: 'A site with a game of minesweeper. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up, submit and view their high scores on the score board or their profile',    
+      description: 'A site with a game of minesweeper. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up, submit and view their high scores on the score board or their profile.',    
       projectUrl: 'https://minesweeper10-611b154e8013.herokuapp.com/',
       projectGitUrl: 'https://github.com/sifzerda/minesweeper',    
     },
@@ -29,7 +38,7 @@ function ProjectList() {
     {
       title: 'The Horror Map',
       image: horrorMap, 
-      description: 'This blog site which provides a guide for horror fiction-writing. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up and leave comments on each page',    
+      description: 'This blog site which provides a guide for horror fiction-writing. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up and leave comments on each page.',    
       projectUrl: 'https://horror-map-3b5accd83dc7.herokuapp.com/',
       projectGitUrl: 'https://github.com/sifzerda/hmap',    
     },
