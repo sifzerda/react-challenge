@@ -13,6 +13,7 @@ import ficMap from '../assets/fictionmap.jpg';
 import horrorMap from '../assets/horrormap.jpg';
 import minePic from '../assets/mine.jpg';
 import solPic from '../assets/solPic.jpg';
+import asterPic from '../assets/aster.jpg';
 
 // https://www.npmjs.com/package/@tippyjs/react
 
@@ -20,9 +21,17 @@ function ProjectList() {
   const projects = [
 
     {
+      title: 'Asteroids',
+      image: asterPic, 
+      description: 'My attempt to make the retro arcade game Asteroids. A fullstack app, built with React, Express, Node js, MongoDB, graphql, and Matter.js physics engine. Users can sign up, submit and view their best scores on their profile.',    
+      projectUrl: 'https://asteroids-10-d02b9b752090.herokuapp.com/',
+      projectGitUrl: 'https://github.com/sifzerda/asteroids',    
+    },
+
+    {
       title: 'Solitaire',
       image: solPic, 
-      description: 'A site with a game of solitaire. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up, submit and view their best times on their profile.',    
+      description: 'My attempt to make the game Solitaire. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up, submit and view their best times on their profile.',    
       projectUrl: 'https://solitaire-10-c835a42e5e11.herokuapp.com/',
       projectGitUrl: 'https://github.com/sifzerda/solitaire',    
     },
@@ -30,7 +39,7 @@ function ProjectList() {
     {
       title: 'Minesweeper',
       image: minePic, 
-      description: 'A site with a game of minesweeper. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up, submit and view their high scores on the score board or their profile.',    
+      description: 'My attempt to make the game Minesweeper. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up, submit and view their high scores on the score board or their profile.',    
       projectUrl: 'https://minesweeper10-611b154e8013.herokuapp.com/',
       projectGitUrl: 'https://github.com/sifzerda/minesweeper',    
     },
