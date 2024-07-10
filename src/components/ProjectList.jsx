@@ -55,7 +55,7 @@ function ProjectList() {
     {
       title: 'The Fiction Map',
       image: ficMap, 
-      description: 'This is (unfinished) blog site provides a guide for fiction-writing. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up and leave comments on each page.',    
+      description: 'This (unfinished) blog site provides a guide for fiction-writing. A fullstack app, built with React, Express, Node js, MongoDB and graphql. Users can sign up and leave comments on each page.',    
       projectUrl: 'https://fiction-map-d72538a215a2.herokuapp.com/',
       projectGitUrl: 'https://github.com/sifzerda/fmap',    
     },
