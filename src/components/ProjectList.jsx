@@ -14,11 +14,20 @@ import horrorMap from '../assets/horrormap.jpg';
 import minePic from '../assets/mine.jpg';
 import solPic from '../assets/solPic.jpg';
 import asterPic from '../assets/aster.jpg';
+import poolPic from '../assets/poolPic.jpg';
 
 // https://www.npmjs.com/package/@tippyjs/react
 
 function ProjectList() {
   const projects = [
+
+    {
+      title: 'Eight Ball Pool',
+      image: poolPic, 
+      description: 'My attempt to make a version of 8 ball billiards. A fullstack app, built with React, Express, Node js, MongoDB, graphql, and Matter.js physics engine. Users can sign up, submit and view their best scores on their profile.',    
+      projectUrl: 'https://eightball-10-c60b2e58af61.herokuapp.com/',
+      projectGitUrl: 'https://github.com/sifzerda/pool',    
+    },
 
     {
       title: 'Asteroids',
