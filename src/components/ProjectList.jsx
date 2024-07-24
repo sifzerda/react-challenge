@@ -15,11 +15,20 @@ import minePic from '../assets/mine.jpg';
 import solPic from '../assets/solPic.jpg';
 import asterPic from '../assets/aster.jpg';
 import poolPic from '../assets/poolPic.jpg';
+import musicPic from '../assets/musicPic.jpg';
 
 // https://www.npmjs.com/package/@tippyjs/react
 
 function ProjectList() {
   const projects = [
+
+    {
+      title: 'Music Player',
+      image: musicPic, 
+      description: 'A front end single page site with a music player. Made with React, Node, and React-player. Loaded with several songs that can be played, paused, and skipped. Volume adjustment and song progress bar.',    
+      projectUrl: 'https://slotmachine-five.vercel.app/',
+      projectGitUrl: 'https://github.com/sifzerda/music-player',    
+    },
 
     {
       title: 'Eight Ball Pool',
