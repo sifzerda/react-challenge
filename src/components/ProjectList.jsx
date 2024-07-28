@@ -16,11 +16,20 @@ import solPic from '../assets/solPic.jpg';
 import asterPic from '../assets/aster.jpg';
 import poolPic from '../assets/poolPic.jpg';
 import musicPic from '../assets/musicPic.jpg';
+import snakePic from '../assets/snakePic.jpg';
 
 // https://www.npmjs.com/package/@tippyjs/react
 
 function ProjectList() {
   const projects = [
+
+    {
+      title: 'Snake',
+      image: snakePic, 
+      description: 'My attempt at making the arcade game Snake. The game is built in React, with Express, Node js, MongoDB, graphql, and Matter.js physics engine. Users can sign up, submit and view their best scores on their profile.',    
+      projectUrl: 'https://snake-10-afd58bdf61b8.herokuapp.com/',
+      projectGitUrl: 'https://github.com/sifzerda/snake',    
+    },
 
     {
       title: 'Music Player',
