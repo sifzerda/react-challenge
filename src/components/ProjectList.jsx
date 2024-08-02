@@ -28,7 +28,7 @@ function ProjectList() {
     {
       title: 'Paint',
       image: paintPic, 
-      description: 'MS Paint style app (Front end only). Built with React, node, and bootstrap. Users can draw with several different tools, make shapes, select, zoom, transform images, erase, delete, change colors, and save work as a jpg file.',   
+      description: 'MS Paint style app (Front end only). Built with React, node, and bootstrap. Users can draw with several different tools, make shapes, select, zoom, transform images, erase, delete, change colors, and save work as a jpg file. Deployed on Vercel.',   
       projectUrl: 'https://paint-sandy.vercel.app/',
       projectGitUrl: 'https://github.com/sifzerda/paint',    
     },
