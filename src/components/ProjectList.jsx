@@ -18,12 +18,20 @@ import poolPic from '../assets/poolPic.jpg';
 import musicPic from '../assets/musicPic.jpg';
 import snakePic from '../assets/snakePic.jpg';
 import paintPic from '../assets/paintPic.jpg';
+import imagePic from '../assets/imagePic.jpg';
 
 // https://www.npmjs.com/package/@tippyjs/react
 
 function ProjectList() {
   const projects = [
 
+    {
+      title: 'ImageUp',
+      image: imagePic, 
+      description: 'Image uploading and hosting in cloud. A fullstack app built with React, node, mongoDB, graphql and hosted on MS Azure Cloud Storage. Users can save uploaded image URLs to profile or local storage for later retrieval.',   
+      projectUrl: 'https://imageup-10-2401032e81d0.herokuapp.com/',
+      projectGitUrl: 'https://github.com/sifzerda/ImageUp',    
+    },
 
     {
       title: 'Paint',
