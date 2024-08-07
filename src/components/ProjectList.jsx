@@ -19,11 +19,20 @@ import musicPic from '../assets/musicPic.jpg';
 import snakePic from '../assets/snakePic.jpg';
 import paintPic from '../assets/paintPic.jpg';
 import imagePic from '../assets/imagePic.jpg';
+import gamePic from '../assets/gamePic.jpg';
 
 // https://www.npmjs.com/package/@tippyjs/react
 
 function ProjectList() {
   const projects = [
+
+    {
+      title: 'Game of Life',
+      image: gamePic, 
+      description: 'Plays out simulations of Game of Life (Conway). A frontend app built with React, and node. Play/paus/reset timed simulation, alter group size and quantity.',   
+      projectUrl: 'https://game-of-life-49sl.vercel.app/',
+      projectGitUrl: 'https://github.com/sifzerda/game-of-life',    
+    },
 
     {
       title: 'ImageUp',
