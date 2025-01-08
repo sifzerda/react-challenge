@@ -50,7 +50,6 @@ div#root {
   text-align: center;
   margin: 0 auto;
   border-radius: 20px;
-  padding-bottom: 32px;
 }
 
 main.mx-3 {
@@ -828,7 +827,7 @@ div.blue-separator {
   /* Add your styles for large screens here */
   /* For example: */
   div#root {
-    padding: 4rem;
+    padding: 0rem;
   }
 
   div.icon-container {
