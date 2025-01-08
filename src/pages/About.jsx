@@ -1,4 +1,4 @@
-import profilePic from '../assets/propic.jpg';
+import profilePic from '../assets/Me.jpg';
 import '../App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faSquare, faLaptop, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
