@@ -15,9 +15,9 @@
   --bootstrap-lighter: #364459;
   --cyan: #01fff7;
   --light-red: #f02652;
-}npm
+}
 
-* {
+npm * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -147,7 +147,7 @@ p.project-description {
   color: #fff;
 }
 
-div.project-list {
+.project-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -155,7 +155,7 @@ div.project-list {
   padding: 20px;
 }
 
-div.project-card {
+.project-card {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -167,7 +167,7 @@ div.project-card {
   overflow: hidden;
 }
 
-div.project-card:hover {
+.project-card:hover {
   opacity: 0.8;
   border: var(--cyan) solid 3px;
 }
@@ -204,10 +204,10 @@ a.a-title {
 
 p.portfolio-bio {
   max-width: 700px;
-  margin: 20px auto;  
+  margin: 20px auto;
 }
 
-/* Resume -----------------------------------------------------*/ 
+/* Resume -----------------------------------------------------*/
 
 p.resume {
   color: white;
@@ -218,7 +218,7 @@ p.resume {
 ul.resume {
   color: white;
   font-family: 'Source Code Pro';
-  margin: 20px auto;  
+  margin: 20px auto;
   max-width: 400px;
   display: flex;
   flex-direction: column;
@@ -275,90 +275,10 @@ a:hover {
 }
 
 a.icon:hover {
-color: white;
+  color: white;
 }
 
-/* bucket app ---------------------------------------------------------
-
-.complete {
-  text-decoration: line-through;
-  opacity: 0.4;
-}
-
-.bucket-form {
-  margin-bottom: 32px;
-}
-
-.bucket-input {
-  padding: 14px 32px 14px 16px;
-  border-radius: 4px;
-  border: 2px solid #5d0cff;
-  outline: none;
-  width: 320px;
-  background: transparent;
-  color: #fff;
-}
-
-.bucket-input::placeholder {
-  color: #e2e2e2;
-}
-
-.bucket-button {
-  padding: 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  outline: none;
-  background: #5d0cff;
-  color: #fff;
-  text-transform: capitalize;
-}
-
-.bucket-input.edit {
-  border: 2px solid #149fff;
-}
-
-.bucket-button.edit {
-  background: linear-gradient(90deg,
-      rgba(20, 159, 255, 1) 0%,
-      rgba(17, 122, 255, 1) 100%);
-  padding: 16px 22px;
-}
-
-.bucket-container {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-}
-
-.bucket-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 4px auto;
-  color: #fff;
-  padding: 16px;
-  border-radius: 5px;
-  width: 90%;
-}
-
-.low {
-  background: linear-gradient(90deg,
-      rgba(93, 12, 255, 1) 0%,
-      rgba(155, 0, 250, 1) 100%);
-}
-
-.medium {
-  background: linear-gradient(90deg,
-      rgba(255, 12, 241, 1) 0%,
-      rgba(250, 0, 135, 1) 100%);
-}
-
-.high {
-  background: linear-gradient(90deg,
-      rgba(20, 159, 255, 1) 0%,
-      rgba(17, 122, 255, 1) 100%);
-}*/
+/* bucket app ---------------------------------------------------------*/
 
 .project-card {
   border: 1px solid #ddd;
@@ -436,12 +356,12 @@ color: white;
 /* ================== Contact Form ============== */
 
 p.contact-text {
-margin-right: 12px;
+  margin-right: 12px;
 }
 
 .icon-container-red {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .contact-text-red {
@@ -449,8 +369,8 @@ margin-right: 12px;
   background-color: rgb(187, 255, 0);
   color: black;
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
 }
 
 .form-container input,
@@ -472,8 +392,8 @@ form {
 
 .form-container {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
 
 .form-container button {
@@ -502,11 +422,10 @@ label {
 
 }
 
-div.contact-icons {
+.contact-icons {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /*  border: red solid 2px;  ------ only apply this to locate flexboxes*/
 }
 
 .icon-container {
@@ -515,7 +434,6 @@ div.contact-icons {
   align-items: center;
   margin-right: 10px;
   margin-bottom: 10px;
-  /*  border: red solid 2px;  ------ only apply this to locate flexboxes*/
 }
 
 .icon-container p {
@@ -523,7 +441,7 @@ div.contact-icons {
   /* Adds space between icon and text */
 }
 
-div.confirmation-message {
+.confirmation-message {
   background-color: var(--blue);
   border: 3px solid #ffffff;
   border-radius: 4px;
@@ -537,66 +455,11 @@ a.icon {
   color: var(--blue);
   font-size: 1.3em;
   margin-right: 10px;
-
-}
-
-/* ================  Dropdown menu - currently unused ========================== */
-
-/* Dropdown Button */
-.dropbtn {
-  background-color: #ec5700;
-  border-radius: 4px;
-  color: white;
-  padding: 16px;
-  margin: 10px;
-  /* font-size: 16px; */
-  border: none;
-}
-
-/* dropdown container  */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content  */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  min-width: 215px;
-  border-radius: 4px;
-  padding: 16px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content p {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content p:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #5d0cff;
 }
 
 /* ================ Blue squares divider (fixed: green/volt) ========================== */
 
-div.blue-separator {
+.blue-separator {
   display: flex;
   justify-content: center;
   /* Align squares with space between */
@@ -618,37 +481,8 @@ div.blue-separator {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
 .card {
   padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 /* ========================= media queries ======================== */
@@ -661,7 +495,7 @@ div.blue-separator {
 
 /* media query for contact flex-box icons*/
 @media screen and (max-width: 600px) {
-  div.icon-container {
+  .icon-container {
     flex-basis: 50%;
   }
 }
@@ -676,11 +510,11 @@ div.blue-separator {
     font-size: 32px;
   }
 
-  div.project-card {
+  .project-card {
     max-width: 300px;
   }
 
-  div.project-list {
+  .project-list {
     padding: 10px;
   }
 
@@ -715,17 +549,17 @@ div.blue-separator {
     font-size: 14px;
   }
 
-  div.project-list {
+  .project-list {
     gap: 20px;
     padding: 10px;
   }
 
-  div.project-card {
+  .project-card {
     max-width: 300px;
     border: 2px solid var(--bootstrap-lighter);
   }
 
-  div.project-card:hover {
+  .project-card:hover {
     border: var(--cyan) solid 2px;
   }
 
@@ -773,7 +607,8 @@ div.blue-separator {
     padding: 8px;
     margin-top: 5px;
     font-size: 14px;
-  }}
+  }
+}
 
 /* Medium screens (tablets) */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -797,12 +632,12 @@ div.blue-separator {
     border-width: 6px;
   }
 
-  div.project-list {
+  .project-list {
     gap: 20px;
     padding: 10px;
   }
 
-  div.project-card {
+  .project-card {
     max-width: 300px;
     border-width: 2px;
     margin-bottom: 10px;
@@ -814,12 +649,13 @@ div.blue-separator {
 
   .form-container button {
     padding: 8px 16px;
-    font-size: 14px; 
+    font-size: 14px;
   }
 
-  div.blue-separator {
+  .blue-separator {
     padding: 25px 50px;
-  }}
+  }
+}
 
 /* Large screens (desktops and laptops) */
 @media screen and (min-width: 1024px) {
@@ -830,7 +666,7 @@ div.blue-separator {
     padding: 0rem;
   }
 
-  div.icon-container {
+  .icon-container {
     justify-content: center;
     margin-right: 20px;
   }
