@@ -34,7 +34,7 @@ export default function About () {
       </div>
 
       <p className='portfolio-bio'>
-      I am a Web Development bootcamp student at Monash University, and aspiring Web Developer and coder. 
+      I am a Web Development bootcamp graduate from Monash University, and aspiring Web Developer and coder. 
       In my spare time I love reading, writing, arts, swimming and music. As someone keen to pursue a career in tech, I enjoy using my creativity, attention to detail, 
       and passion for learning to advance in the tech world and achieve outcomes that make a 
       difference.
