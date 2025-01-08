@@ -20,7 +20,7 @@ export default function Contact() {
 
       <div className="contact-icons">
         <div className="icon-container">
-          <a href="mailto:tydamon@hotmail.com" className="icon">
+          <a href="mailto:tyldamon@gmail.com" className="icon">
             <FontAwesomeIcon icon={faEnvelope} size="2x" />
           </a>
           <p className='contact-text'>Email</p>
