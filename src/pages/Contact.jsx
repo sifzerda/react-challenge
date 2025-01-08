@@ -47,7 +47,6 @@ export default function Contact() {
           <p className='contact-text'>Stack Overflow</p>
         </div>
 
-
       </div>
 
       <div className="blue-separator">
